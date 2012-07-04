@@ -22,6 +22,7 @@ public class DetailActivity extends Activity {
 		if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
 			finish();
 			return;
+			
 		}
 
 		setContentView(R.layout.details_activity_layout);
